@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * _strncpy - copies a string
+ *
+ * Return: pointer to the resulting string
+ */
 int main(void)
 {
 int n;
