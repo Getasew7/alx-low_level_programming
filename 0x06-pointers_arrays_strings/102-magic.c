@@ -8,19 +8,14 @@ a[2] = 1024;
 p = &n;
 /*
 * write your line of code here...
-*
 * Remember:
-*
 * - you are not allowed to use a
-*
 * - you are not allowed to modify p
-*
 * - only one statement
-*
 * - you are not allowed to code anything else than this line of code
+*
+* adding any of these lines makes code to print "a[2] = 98" at output 
 */
- /* adding any of these lines makes code to print "a[2] = 98" at output */
-
   p[5] = 98; //OR *(p + 5) = 98;
 /* ...so that this prints 98\n */
 printf("a[2] = %d\n", a[2]);
