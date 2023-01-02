@@ -18,6 +18,7 @@ while (1)
 {
 a = *s++;
 if (a == c)
+{
 return (s - 1);
 }
 if (a == 0)
