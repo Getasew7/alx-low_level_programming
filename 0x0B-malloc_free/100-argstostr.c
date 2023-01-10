@@ -8,7 +8,7 @@
  * @av: pointer to array of size ac.
  *
  * Return: NULL if ac == 0 or av == null, Pointer to new string.
- * 
+ *
  * NULL on fail.
  */
 char *argstostr(int ac, char **av)
@@ -31,7 +31,7 @@ j++;
 size++;
 i++;
 }
-arg = malloc((sizeof(char) * size) + 1);
+arg = malloc((sizeof(char) * size) +1);
 if (arg == NULL)
 return (NULL);
 i = 0;
