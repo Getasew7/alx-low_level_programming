@@ -33,7 +33,7 @@ s2 = "";
 s1l = _strlen(s1);
 s2l = _strlen(s2);
 n = (n >= s2l) ? s2l : n;
-nstr = malloc((s1l + n) * sizeof(char) + 1);
+nstr = malloc((s1l + n) *sizeof(char) + 1);
 if (!nstr)
 return (NULL);
 for (idx = 0; idx < s1l; idx++)

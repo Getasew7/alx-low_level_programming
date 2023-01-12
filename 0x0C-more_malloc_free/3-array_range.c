@@ -14,7 +14,7 @@ int idx, len;
 if (min > max)
 return (NULL);
 len = max - min + 1;
-ptr = malloc(len * sizeof(int));
+ptr = malloc(len *sizeof(int));
 if (!ptr)
 return (NULL);
 for (idx = 0; idx < len; idx++)
