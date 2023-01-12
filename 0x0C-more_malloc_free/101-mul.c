@@ -79,7 +79,7 @@ return (1);
  * @n2: second number
  * Return: void
  */
-void multiply(char *n1, *n2)
+void multiply(char *n1, char *n2)
 {
 int idx, n1n, n2n, res, tmp, total;
 int n1l = _strlen(n1);
