@@ -12,7 +12,7 @@ unsigned int i;
 char *str;
 va_list list;
 va_start(list, n);
-if (i = 0; i < n; i++)
+for (i = 0; i < n; i++)
 {
 str = va_arg(list, char *);
 if (!str)
