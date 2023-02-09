@@ -84,6 +84,7 @@ printf("<unknown: %x>\n", e_ident[EI_CLASS]);
  * print_data - Prints the data of an ELF header.
  *
  * @e_ident: A pointer to an array containing the ELF class.
+ * print_magic - Prints the magic numbers of an ELF header.
  */
 void print_data(unsigned char *e_ident)
 {
@@ -256,10 +257,6 @@ exit(98);
  * @argv: An array of pointers to the arguments.
  *
  * Return: 0 on success.
- *
- * Description: If the file is not an ELF File or
- *
- *              the function fails - exit code 98.
  */
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
